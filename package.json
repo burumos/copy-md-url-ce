@@ -1,0 +1,23 @@
+{
+  "name": "copy-md-url-ce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burumos/copy-md-url-ce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burumos/copy-md-url-ce/issues"
+  },
+  "homepage": "https://github.com/burumos/copy-md-url-ce#readme",
+  "dependencies": {
+    "riot": "^4.12.4"
+  }
+}
