@@ -1,12 +1,17 @@
 {
-    "name": "コピーURL",
-    "version": "1.0",
-    "description": "Copy URL to clipboard.",
-    "permissions": [
-        "activeTab"
-    ],
-    "page_action": {
-        "default_popup": "popup.html"
-    },
-    "manifest_version": 2
+  "name": "Copy URL",
+  "version": "1.0",
+  "description": "Copy URL to clipboard.",
+  "permissions": [
+    "tabs",
+    "contextMenus"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
 }
